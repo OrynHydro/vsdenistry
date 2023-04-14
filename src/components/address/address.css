@@ -1,0 +1,161 @@
+.contacts__addressBlock-container {
+    padding: 120px 220px 180px;
+}
+
+.contacts__addressBlock-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 77px;
+
+    color: var(--color-green);
+}
+
+.contacts__adressBlock-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__adressBlock-textBlock {
+    position: relative;
+    top: -17px;
+}
+
+.clinicName {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    position: relative;
+    left: -34px;
+
+    margin-bottom: 18px;
+}
+
+.clinicName img {
+    width: 20px;
+    height: 29px;
+}
+
+.contacts__adressBlock-textBlockItem {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clinicAddress {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-bottom: 7px;
+    
+    color: #474747;
+}
+
+.clinicCity {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-bottom: 17px;
+    
+    color: #474747;
+}
+
+a.clinicTel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    width: 150px;
+
+    margin-bottom: 8px;
+
+    color: var(--color-green);
+
+    transition: 0.3s ease;
+}
+
+a.clinicTel:hover {
+    color: var(--color-greenHover);
+}
+
+.clinicWorkingHours {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #474747;
+}
+
+.contacts__adressBlock-textBlock h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    margin-top: 42px;
+    
+    color: #474747;
+}
+
+.contacts__adressBlock-textBlock .imgBlock {
+    display: flex;
+    gap: 26px;
+
+    margin-top: 12px;
+}
+
+.contacts__adressBlock-textBlock .imgBlock img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.email {
+    margin: 42px 0px 17px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #474747;
+}
+
+a.emailLink {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    cursor: pointer;
+
+    color: var(--color-green);
+
+    transition: 0.3s ease;
+}
+
+a.emailLink:hover {
+    color: var(--color-greenHover);
+}
+
+.contacts__mapBlock {
+    background-color: #fff;
+    padding: 58px 0 107px;
+}
+
+.contacts__mapBlock-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 58px;
+    text-align: center;
+
+    color: var(--color-green);
+}
+
+.contacts__mapBlock iframe {
+    margin: 0px 210px;
+    max-width: 100%;
+}

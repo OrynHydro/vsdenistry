@@ -1,0 +1,35 @@
+.subheader img {
+    object-fit: cover;
+}
+
+.subheader__container {
+    position: absolute;
+    top: 232px;
+
+    width: 100%;
+    height: 342px;
+
+    padding: 95px 0px 0px 386px;
+
+    backdrop-filter: brightness(60%);
+}
+
+.subheader__container h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    margin-bottom: 30px;
+
+    color: #fff;
+}
+
+.subheader__container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 645px;
+    
+    color: #FFFFFF;
+}

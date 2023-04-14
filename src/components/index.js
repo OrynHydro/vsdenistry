@@ -1,0 +1,17 @@
+export {default as Achievements} from './achievements/Achievements.jsx';
+export {default as Address} from './address/Address.jsx';
+export {default as Advert} from './advert/Advert.jsx';
+export {default as Attendance} from './attendance/Attendance.jsx';
+export {default as Comment} from './comment/Comment.jsx';
+export {default as Details} from './details/Details.jsx';
+export {default as Footer} from './footer/Footer.jsx';
+export {default as Form} from './form/Form.jsx';
+export {default as HeaderBottom} from './headerBottom/HeaderBottom.jsx';
+export {default as HeaderTop} from './headerTop/HeaderTop.jsx';
+export {default as Request} from './request/Request.jsx';
+export {default as Sale} from './sale/Sale.jsx';
+export {default as Service} from './service/Service.jsx';
+export {default as Services} from './services/Services.jsx';
+export {default as SlickSlider} from './slickSlider/SlickSlider.jsx';
+export {default as Slider} from './slider/Slider.jsx';
+export {default as Subheader} from './subheader/Subheader.jsx';

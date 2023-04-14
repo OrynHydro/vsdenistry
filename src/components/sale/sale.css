@@ -1,0 +1,169 @@
+.sales__block {
+    margin: 82px 0px;
+    padding-bottom: 63px;
+    background-color: #fff;
+}
+
+.sales__container {
+    display: flex;
+}
+
+.sales__remainsBlock {
+    width: 200px;
+    height: 50px;
+
+    background-color: var(--color-green);
+
+    margin: 46px 38px 0 0;
+
+    padding: 15px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.sales__content {
+    margin: 38px 203px 0 0;
+    position: relative;
+}
+
+.percentage {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: var(--color-green);
+}
+
+.sales__content h2 {
+    margin: 30px 0;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: var(--color-green);
+}
+
+.sales__content p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+
+    width: 560px;
+
+    margin-bottom: 52px;
+
+    position: relative;
+
+    color: #565656;
+}
+
+.crossed {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+    margin-right: 83px;
+    
+    color: #686868;
+}
+
+.crossed::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background-color: var(--color-green);
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    border-radius: 10px;
+    transform: rotate(18deg);
+}
+
+.price {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #212321;
+}
+
+.sales__imgBlock {
+    background-image: url('/src/images/img/Background6.svg');
+    width: 915px;
+    height: 423px;
+    left: 988px;
+    position: absolute;
+    z-index: 1;
+}
+
+.sales__imgBlock button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #fff;
+
+    width: 250px;
+    height: 50px;
+
+    position: absolute;
+    left: 333px;
+    top: 187px;
+
+    z-index: 100;
+
+    border: 1px solid #fff;
+
+    transition: 1s ease;
+}
+
+.sales__imgBlock button:hover {
+    background-color: #fff;
+    color: #1E1E1E;
+}
+
+.sales__imgBlock .overlayActive {
+    opacity: 0.6;
+    background: #1e1e1e;
+
+    transition: 1s ease;
+}
+
+.sales__imgBlock .overlay,
+.overlayActive {
+    width: 915px;
+    height: 423px;
+
+    z-index: 2;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    transition: 1s ease;
+
+    opacity: 0.1;
+}
+
+.services {
+    text-align: center;
+    margin-bottom: 95px;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #8B8B8B;
+}
+
+.services:hover {
+    font-weight: 900;
+}

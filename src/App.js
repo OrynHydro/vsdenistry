@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/reset.css';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Services from './pages/services/Services';
+import Sales from './pages/sales/Sales';
+import Contacts from './pages/contacts/Contacts';
+
+
+import Footer from './components/footer/Footer';
+
+import ScrollToTop from './utils/scrollToTop';
+import HeaderTop from './components/headerTop/HeaderTop';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+
+        <ScrollToTop />
+        <HeaderTop />
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/sales' element={<Sales />} />
+          <Route path='/contacts' element={<Contacts />} />
+        </Routes>
+
+        <Footer />
+
+      </Router>
+    </>
   );
 }
 
